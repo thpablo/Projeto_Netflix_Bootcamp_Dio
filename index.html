@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techflix</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css"
+
+    <!-- owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- responsive css-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo" alt="TECHFLIX">
+               <a href="index.html"><img src="./img/logo.png" alt="logo techflix"></a>
+            </h1>
+            <nav class="navbar">
+                <a href="#">Comparassion</a>
+                <a href="#">Reviews</a>
+                <a href="#">Forum</a>
+                <a href="#">About us</a>
+            </nav> 
+            <div class="account">
+                <a href="#">My profile</a>
+            </div>
+            <img id="profile" src="img/account.png">        
+        </div>
+        <div class="menu-escondido">
+                <a href="#">Comparassion</a>
+                <a href="#">Reviews</a>
+                <a href="#">Forum</a>
+                <a href="#">About us</a>
+        </div>
+    </header>
+    <main>
+        <section class="top">
+            <h2>News Day</h2>
+            <a href="#">
+                <div class="noticias-top">
+                    <div class="botao-quadro-escondido">
+                        <button class="botao" role="button">
+                            <img src="img/clock.png" class="icon">
+                        </button>
+                        <button class="botao" role="button">
+                            <img src="img/heart.png" class="icon">
+                        </button>
+                    </div>
+                    <h2>release: Samsung Odyssey G7 S28</h2>
+                    <p class="autor">by Tim Schiesser -  February 1, 2022.</p>
+                    <p class="descricao">Today we're reviewing the Samsung Odyssey G7. Now you might be wondering, hang on a moment, didn't you already review the Odyssey G7 way back in 2020? And you'd be correct, but last year Samsung released a new Odyssey G7, which is a little bit confusing, however it's a very different monitor in terms of specifications. [Click for see more.]</p>
+                    <div class="botao-quadro">
+                        <button role="button" class="botao">
+                            <img src="img/clock.png" class="icon" >Read Later
+                        </button>
+                        <button role="button" class="botao">
+                            <img src="img/heart.png" class="icon">Favorite
+                        </button>
+                    </div>    
+                </div>    
+            </a>
+        </section>
+        <h2>Reviews</h2>
+        <div class="carrosel-reviews">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/cpu.webp" alt="review"></a>
+                    <div class="legenda-carrosel">CPU INTEL I3 12Gen</div>
+                </div>
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/cpu2.webp" alt="review"></a>
+                    <div class="legenda-carrosel">CPU AMD RYZEN 9 5950X</div>
+                </div>
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/gpu.webp" alt="review"></a>
+                    <div class="legenda-carrosel">GPU RTX 3080</div>
+                </div>
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/gpu2.webp" alt="review"></a>
+                    <div class="legenda-carrosel">GPU RADEON 6600XT</div>
+                </div>
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/kit.webp" alt="review"></a>
+                    <div class="legenda-carrosel">KIT CPU I3 + MOBOZ390 + 16Gb RAM</div>
+                </div>
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/note.webp" alt="review"></a>
+                    <div class="legenda-carrosel">NOTEBOOK Legion</div>
+                </div>
+                <div class="item">
+                    <a href="#"><img class="itens-noticias" src="img/empty.png" alt="review"></a>
+                    <div class="legenda-carrosel">CPU INTEL I3-XXXX</div>
+                </div>
+                <div class="item-generico">
+                    <a href="#"><img class="itens-noticias" src="img/empty.png" alt="review"></a>
+                    <div class="legenda-carrosel">CPU INTEL I3-XXXX</div>
+                </div>
+                <div class="item-generico">
+                    <a href="#"><img class="itens-noticias" src="img/empty.png" alt="review"></a>
+                    <div class="legenda-carrosel">CPU INTEL I3-XXXX</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <h2>Discussion</h2>
+    <article>
+        <aside>
+            <div class="login-container">
+                <h3>Log in for discuss in the forum</h3>
+                <form id="login-menu">
+                    <input type="text" class="user-login" placeholder="Email or user">
+                    <input type="password" class="password-login" placeholder="Password">
+                    <div class="remind-login">
+                        <input type="checkbox" name="remind-login" id="remind"><p>Remind login?</p>
+                    </div>
+                    <input type="button" class="botao" value="Login">
+                </form>
+            </div>
+        </aside>
+        <div class="comments-container">
+            <h3>Main Discussions</h3>
+            <div class="comments">
+                <a class="data" href="#">12/12/2022</a>
+                <div class="title-author-box">
+                    <a class="title-discussion" href="#">This new Asus Gaming Monitor is incredible</a>
+                    <a class="author" href="#">User123</a>
+                </div>
+                    <img src="img/man.png" class="icon-profile">
+            </div>
+            <div class="comments">
+                <a class="data" href="#">12/02/2021</a>
+                <div class="title-author-box">
+                    <a class="title-discussion" href="#">Wallpapers of Asus ROG?</a>
+                    <a class="author" href="#">User_knight1001</a>
+                </div>
+                    <img src="img/man.png" class="icon-profile">
+            </div>
+            <div class="comments">
+                <a class="data" href="#">7/06/2022</a>
+                <div class="title-author-box">
+                    <a class="title-discussion" href="#">My results of overclock in I7 4Gen</a>
+                    <a class="author" href="#">User103</a>
+                </div>
+                    <img src="img/man.png" class="icon-profile">
+            </div>
+            <div class="comments">
+                <a class="data" href="#">13/08/2021</a>
+                <div class="title-author-box">
+                    <a class="title-discussion" href="#">Recomendations of headsets $200?</a>
+                    <a class="author" href="#">The_User999</a>
+                </div>
+                    <img src="img/man.png" class="icon-profile">
+            </div>
+            <div class="comments">
+                <a class="data" href="#">7/12/2022</a>
+                <div class="title-author-box">
+                    <a class="title-discussion" href="#">Someone can me help with my CPU?</a>
+                    <a class="author" href="#">Us3r_994</a>
+                </div>
+                    <img src="img/man.png" class="icon-profile">
+            </div>
+            <div class="comments">
+                <a class="data" href="#">9/12/2022</a>
+                <div class="title-author-box">
+                    <a class="title-discussion" href="#">I NEED this Ryzen 9 for NOW</a>
+                    <a class="author" href="#">XxUserxX</a>
+                </div>
+                    <img src="img/man.png" class="icon-profile">
+            </div>
+        </div>
+    </article>
+        <!--javascript-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>

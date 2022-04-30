@@ -1,0 +1,65 @@
+:root{
+    --cinzaequilibrio:#070707;
+    --cinzamaisescuro:#0e0e0e;
+    --cinzaclaro:#272727;
+    --vermelho:rgb(255, 64, 16);
+}
+@media screen and (max-width:800px) {
+        .container{
+            background-color: var(--cinzamaisescuro);
+            align-items: center;
+            display:flex;
+            justify-content: space-between;
+            padding-top: 1vmin;
+            padding-bottom: 1;
+            padding-right: 1.7vmin;
+            padding-left:calc(50% - 6.2vmin); /*Cálculo para posicionar a logo ao meio (50%:metade da tela, 5.2vmin:metade da largura da logo) */ 
+        }
+        #profile{
+            margin:0;
+            padding: 0;
+        }
+        .account{
+            visibility: hidden;
+        }
+        .navbar{
+            display: none;
+        }
+        .menu-escondido{
+            background-color: var(--vermelho);
+            display:flex;                   
+            width:100%;         
+            visibility: visible;                    
+            justify-content:space-around; 
+            white-space: nowrap;
+            text-decoration: none;
+            font-size:1.8vmin;
+            text-transform: uppercase;
+        }
+        .noticias-top{
+            padding:5vmin 2vmin 0 4vmin; 
+            height: 45vmin;
+        }
+        .botao-quadro-escondido{    /*segunda class escondido para botao e menu*/
+            display: flex;
+            justify-content: end;
+            margin-bottom: 10vmin;
+        }
+        .botao img{
+            margin:0;
+        }
+        .botao-quadro{
+            display: none;
+        }
+        .descricao{
+            display: none;
+        }
+}
+@media screen and (max-width:600px){
+    .carrosel-reviews{
+        margin-left: 20vmin;
+        width: 60vmin;
+        height: 60vmin;
+    }
+
+}
