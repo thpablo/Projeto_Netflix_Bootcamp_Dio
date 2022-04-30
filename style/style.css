@@ -76,7 +76,7 @@ h3{
     padding:3vmin 25vmin 0 5vmin; 
     margin-left:auto;
     margin-right:auto;
-    background: linear-gradient(rgba(0,0,0,.99),rgba(0, 0, 0, 0.8),rgba(243, 0, 0, 0.25)), url('/img/monitor.webp');
+    background: linear-gradient(rgba(0,0,0,.99),rgba(0, 0, 0, 0.8),rgba(243, 0, 0, 0.25)), url('../img/monitor.jpg');
     border-radius: 0.4vw;
     height: 55vmin;
     max-width: 200vmin;
@@ -248,7 +248,7 @@ footer{
     flex-direction: column;
 }
 .message .botao{
-    font-size: 2vmin;
+    font-size: 1.5vmin;
     border: none;
     border-radius: 0;
     width: 10vmin;
