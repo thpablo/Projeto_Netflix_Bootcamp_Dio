@@ -131,6 +131,8 @@ h3{
     transition: 0.5s;
 }
 .itens-noticias{
+    display: flex;
+    align-items: center;
     margin-top: 3vmin;
     filter:brightness(.7);
     height:30vmin;
@@ -230,4 +232,44 @@ article{
     margin-left: 2vmin;
     width: 6vh;
     height: 5vh;
+}
+footer{
+    font-size: 2.5vmin;
+    padding:2vmin;
+    background-color: var(--cinzaclaro);
+}
+.contact-container{
+    margin-top: 1rem;
+    display: flex;
+}
+.contact-us{
+    width: 15vmin;
+    display: flex;
+    flex-direction: column;
+}
+.message .botao{
+    font-size: 2vmin;
+    border: none;
+    border-radius: 0;
+    width: 10vmin;
+    height: 3vmin;
+}
+.social-medias{
+    display: flex;
+    justify-content: space-between;
+}
+.social-medias img{
+    margin-top: 1rem;
+    height: 4vmin;
+    width:  4vmin;
+}
+.message{
+    display: flex;
+    margin-left: 1rem;
+    align-items: flex-start;
+}
+.message-box{
+    margin-right: 3rem;
+    width: 30vmin;
+    height: 8vmin;
 }
