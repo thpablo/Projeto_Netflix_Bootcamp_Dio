@@ -109,7 +109,7 @@ h3{
 }
 .botao{
     cursor:pointer;
-    justify-content: space-between;
+    justify-content: center;
     display:flex;
     color:white;
     margin-right: 2vmin;
